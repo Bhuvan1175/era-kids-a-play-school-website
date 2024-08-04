@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    
+            
+            <div class="form">
+                <a href="index.html">
+                    <button class="close-cast">x</button>
+                </a>
+                <h3>Enquiry Form</h3>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" placeholder="Enter your First Name">
+                
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" placeholder="Enter your Last Name">
+                
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter your Email">
+                
+                <label for="phone">Phone No.</label>
+                <input type="text" id="phone" placeholder="Enter your Phone Number">
+                
+                <label for="SelectSchool">Select School</label>
+                <select id="SelectSchool" name="options">
+                    <option value="" disabled selected>Select School</option>
+                    <option value="option1">ERA Kids a Play School</option>
+                    <option value="option2">ERA International School</option>
+                </select>
+                <div id="selectedOption" class="selected-option"></div>
+                <label for="SubOptions">Class</label>
+                <select id="SubOptions">
+                    <option value="" disabled selected>Select an option</option>
+                </select>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
